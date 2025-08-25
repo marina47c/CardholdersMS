@@ -14,6 +14,17 @@ var jwt = builder.Configuration.GetSection("Jwt");
 var key = jwt["Key"] ?? throw new InvalidOperationException("Jwt:Key is missing.");
 var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200") 
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 builder.Services
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(o =>
@@ -88,8 +99,9 @@ using (var scope = app.Services.CreateScope())
         db.SaveChanges();
     }
 }
-
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAngular");
 app.UseAuthentication();
 app.UseAuthorization();
 

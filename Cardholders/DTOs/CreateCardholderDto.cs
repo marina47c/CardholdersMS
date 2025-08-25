@@ -10,9 +10,6 @@ namespace CardholderManagementSystem.DTOs
         [Required, MaxLength(50)]
         public string LastName { get; set; } = String.Empty;
 
-        [Required, MaxLength(100), EmailAddress]
-        public string Email { get; set; } = String.Empty;
-
         [Required, MaxLength(200)]
         public string Address { get; set; } = String.Empty;
 
