@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardholderManagementSystem", "Cardholders\CardholderManagementSystem.csproj", "{0A459D61-1692-4D74-B1EE-7B60C3C3B98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A3F9B6E3-396D-40CD-8125-2C5F167E7AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A459D61-1692-4D74-B1EE-7B60C3C3B98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A459D61-1692-4D74-B1EE-7B60C3C3B98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A459D61-1692-4D74-B1EE-7B60C3C3B98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A459D61-1692-4D74-B1EE-7B60C3C3B98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F9B6E3-396D-40CD-8125-2C5F167E7AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F9B6E3-396D-40CD-8125-2C5F167E7AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F9B6E3-396D-40CD-8125-2C5F167E7AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F9B6E3-396D-40CD-8125-2C5F167E7AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90B74744-A200-4149-AA6E-DE1CE3947A50}
+	EndGlobalSection
+EndGlobal

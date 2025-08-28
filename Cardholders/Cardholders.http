@@ -1,0 +1,6 @@
+@Cardholders_HostAddress = http://localhost:5241
+
+GET {{Cardholders_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
