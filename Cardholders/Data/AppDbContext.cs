@@ -25,8 +25,8 @@ namespace CardholderManagementSystem.Data
                     new Cardholder
                     {
                         Id = 1u,
-                        FirstName = "Dragan",
-                        LastName = "Jurić",
+                        FirstName = "User1Name",
+                        LastName = "User1Surname",
                         PhoneNumber = "+38591234567",
                         Address = "11 Nexi St",
                         TransactionCount = 0,
@@ -34,8 +34,8 @@ namespace CardholderManagementSystem.Data
                     new Cardholder
                     {
                         Id = 2u,
-                        FirstName = "Matej",
-                        LastName = "Brlec",
+                        FirstName = "User2Name",
+                        LastName = "User2Surname",
                         PhoneNumber = "+38591876543",
                         Address = "34 Nexi St",
                         TransactionCount = 0,
@@ -43,8 +43,8 @@ namespace CardholderManagementSystem.Data
                     new Cardholder
                     {
                         Id = 3u,
-                        FirstName = "Marija",
-                        LastName = "Štefić",
+                        FirstName = "User3Name",
+                        LastName = "User3Surname",
                         PhoneNumber = "+38591876544", // changed to avoid duplicate
                         Address = "65 Nexi St",
                         TransactionCount = 0,
@@ -52,8 +52,8 @@ namespace CardholderManagementSystem.Data
                     new Cardholder
                     {
                         Id = 4u,
-                        FirstName = "Kristina",
-                        LastName = "Sardelić",
+                        FirstName = "User4Name",
+                        LastName = "User4Surname",
                         PhoneNumber = "+38591111222",
                         Address = "65 Nexi St",
                         TransactionCount = 0,
@@ -61,8 +61,8 @@ namespace CardholderManagementSystem.Data
                     new Cardholder
                     {
                         Id = 5u,
-                        FirstName = "Marina",
-                        LastName = "Capan",
+                        FirstName = "User5Name",
+                        LastName = "User5Surname",
                         PhoneNumber = "+38593344556",
                         Address = "New Nexi St",
                         TransactionCount = 0,
